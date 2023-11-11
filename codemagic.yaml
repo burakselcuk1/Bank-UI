@@ -31,10 +31,6 @@ workflows:
         recipients:
           - design.burakk@gmail.com
           - sercangoger@gmail.com
-        notify:
-          success: true
-          failure: false
-          always: false  # This ensures that emails are sent only on success
       google_play:
         credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
         track: internal
