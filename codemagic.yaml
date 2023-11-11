@@ -9,4 +9,4 @@ workflows:
           - sercangoger@gmail.com
         notify:
           success: true
-          failure: false
+          failure: true
